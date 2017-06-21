@@ -11,7 +11,7 @@
     </engines>
 
     <js-module src="www/keyboard.js" name="keyboard">
-    	<clobbers target="window.Keyboard" />
+      <clobbers target="cordova.plugins.Keyboard" />
     </js-module>
 
     <!-- ios -->
